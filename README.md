@@ -1,7 +1,7 @@
 # EduCast - HackMIT 2020
 Code base for 4 Idiots HackMIT Team - Ritik, Himanshu, Bhavik, and Dhyey
 
-![EduCast Logo](/EduBox/flaskApp/static/EduCastLogo.png)
+[![EduCast Logo](/EduBox/flaskApp/static/EduCastLogo.png)](https://youtu.be/0qiRfVlCKN8)
 
 EduCast is a remote learning platform targeted for students living in under resourced-communities to use online educational media offline on their TVs.
 
