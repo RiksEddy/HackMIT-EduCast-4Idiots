@@ -9,9 +9,25 @@ It supplements online learning management systems by eliminating the need for st
 
 1. The student downloads the lecture content from any LMS (a short duration when internet connection will be required)
 
+![IBM EdX Classroom using Skills Network Portal](/img/IBM-edXclassroom.jpeg)
+
 2. The EduStick hosts a wireless LAN which can be used to upload files from the smartphone to the EduStick.
 
+![Flask App for Uploading Files to EduStick](/img/EduBoxFileUpload.jpeg)
+
 3. The Edustick plays back the contents on the TV screen using an AV/Composite or HDMI cable.
+
+  * File Browser for Media Selection:
+  
+  ![Kivy File Browser](/img/KivyFileBrowser.jpg)
+  
+  * PDF Document Viewer:
+  
+  ![Evince PDF](/img/EvincePDF.jpg)
+  
+  * Example Lecture Video:
+  
+  ![Example Lecture](/img/Example\Lecture\Video.mp4)
 
 The tools we have used in the development of this product:
 
