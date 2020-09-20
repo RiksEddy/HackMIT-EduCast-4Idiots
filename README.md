@@ -1,7 +1,7 @@
 # HackMIT
 Code base for 4 Idiots HackMIT team
 
-![EduCast Logo](/EduBox/flaskApp/static/logo.png)
+![EduCast Logo](/EduBox/flaskApp/static/EduCastLogo.png)
 
 EduCast is a device to supplement online learning management systems on the student side by eliminating the requirement of reliable internet connectivity and mobile access for an extended period of time. The EduCast's EduStick allows the user to view their class content content on a regular television screen, completely phone and internet independent.
 
