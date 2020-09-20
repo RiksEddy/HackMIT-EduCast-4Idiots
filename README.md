@@ -27,7 +27,7 @@ It supplements online learning management systems by eliminating the need for st
   
   * Example Lecture Video:
   
-  ![Example Lecture](/img/Example\Lecture\Video.mp4)
+  ![Example Lecture](/img/ExampleLectureVideo.mp4)
 
 The tools we have used in the development of this product:
 
