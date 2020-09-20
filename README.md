@@ -12,10 +12,10 @@ EduCast is a device to supplement online learning management systems on the stud
 The tools we have used in the development of this product:
 
 1. A Raspberry-Pi Microcontroller (the EduStick)
-  * An IR remote control (for navigating the TV screen)
-3. VLC (video player)
-4. Evince(pdf viewer)
-5. Kivy (TV user interface)
-6. Flask/SQL (for deploying a database on the Raspberry-Pi)
-7. IBM open edX (as a learning management platform)
-8. Django (to develop an optional customised learning management platform)
+  * Kivy (TV user interface for browsing media)
+  * LIRC (ir remote for navigating the TV user interface)
+  * VLC (video player)
+  * Evince (pdf viewer)
+  * Flask (for deploying a web app on the Raspberry-Pi)
+2. IBM open edX (as a learning management platform)
+3. Django (to develop an optional customised learning management platform)
