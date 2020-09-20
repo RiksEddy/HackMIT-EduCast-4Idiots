@@ -19,5 +19,5 @@ The tools we have used in the development of this product:
   * VLC (video player)
   * Evince (pdf viewer)
   * Flask (for deploying a web app on the Raspberry-Pi)
-2. IBM open edX (as a learning management platform)
+2. [IBM Open edX](https://hackmit.skillsnetwork.site/home/) (as a learning management platform)
 3. Django (to develop an optional customised learning management platform)
