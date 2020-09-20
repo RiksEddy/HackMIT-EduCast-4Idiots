@@ -15,7 +15,7 @@ It supplements online learning management systems by eliminating the need for a 
 
 The tools we have used in the development of this product:
 
-1. A Raspberry-Pi Microcontroller (the EduStick)
+1. A Raspberry-Pi Single-Board Computer (the EduStick)
   * Kivy (TV user interface for browsing media)
   * LIRC (ir remote for navigating the TV user interface)
   * VLC (video player)
