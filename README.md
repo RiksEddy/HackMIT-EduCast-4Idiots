@@ -5,13 +5,13 @@ Code base for 4 Idiots HackMIT Team - Ritik, Himanshu, Bhavik, and Dhyey
 
 EduCast is a remote learning platform targeted for students living in under resourced communities to use online educational media offline on their TVs.
 
-EduCast is a device to supplement online learning management systems on the student side by eliminating the requirement of reliable internet connectivity and mobile access for an extended period of time. The EduCast's EduStick enables the user to view their class content content on a regular television screen, completely phone and internet independent.
+It supplements online learning management systems by eliminating the need for a reliable internet connection and mobile access over many hours. The EduCast's EduStick enables the user to view their class content content on a regular television screen, completely phone and internet independent.
 
 1. The student downloads the lecture content from any LMS (a short duration when internet connection will be required)
 
 2. The EduStick hosts a wireless LAN which can be used to upload files from the smartphone to the EduStick.
 
-3. The Edustick telecasts the contents on the TV screen using an AV/TV or HDMI cable.
+3. The Edustick plays back the contents on the TV screen using an AV/Composite or HDMI cable.
 
 The tools we have used in the development of this product:
 
