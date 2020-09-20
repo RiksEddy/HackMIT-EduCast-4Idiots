@@ -25,9 +25,7 @@ It supplements online learning management systems by eliminating the need for st
   
   ![Evince PDF](/img/EvincePDF.jpg)
   
-  * Example Lecture Video:
-  
-  ![Example Lecture](/img/ExampleLectureVideo.mp4)
+  * [Example Lecture](/img/https://youtu.be/la17Z0k_A2s)
 
 The tools we have used in the development of this product:
 
