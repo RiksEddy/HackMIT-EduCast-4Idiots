@@ -1,5 +1,5 @@
 # EduCast - HackMIT 2020
-Code base for 4 Idiots HackMIT Team - Ritik, Himanshu, Bhavik, and Dhyey - **Click on Logo for Youtube Video**
+Code base for 4 Idiots HackMIT Team - Ritik, Himanshu, Bhavik, and Dhyey - **Click on Logo for Youtube Demo**
 
 [![EduCast Logo](/EduBox/flaskApp/static/EduCastLogo.png)](https://youtu.be/0qiRfVlCKN8)
 
