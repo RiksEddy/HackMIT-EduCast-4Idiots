@@ -5,7 +5,7 @@ Code base for 4 Idiots HackMIT Team - Ritik, Himanshu, Bhavik, and Dhyey
 
 EduCast is a remote learning platform targeted for students living in under resourced communities to use online educational media offline on their TVs.
 
-It supplements online learning management systems by eliminating the need for students to have a reliable internet connection and mobile access over many hours. The EduCast's EduStick enables the user to view their class content content on a regular television screen, completely phone and internet independent.
+It supplements online learning management systems by eliminating the need for students to have a reliable internet connection and mobile access over many hours. The EduCast's EduStick enables the user to view their class content on a regular television screen, completely phone and internet independent.
 
 1. The student downloads the lecture content from any LMS (a short duration when internet connection will be required)
 
