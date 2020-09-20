@@ -1,0 +1,159 @@
+#
+# Initial test configuration for systemwide irexec service.
+#
+# Note that the system-wide service is useful only in corner-cases.
+# Most scenarios are better off with a session service as described in the
+# Configuration Guide. However, note that both can also be combined.
+#
+# Also note that the system-wide service runs without a terminal. To
+# check the output generated use something like
+# 'journalctl -b0 /usr/bin/irexec'. This service just echoes some keys
+# commonly available.
+#
+
+#Quits Evince when Power Button Pressed
+begin
+    prog   = irexec
+    button = KEY_POWER
+    config = sudo killall evince
+end
+
+#Scroll Down when Down Pressed
+begin
+   prog = irexec
+   button = KEY_DOWN
+   config = xdotool key 0xff54 #Down Arrow
+end
+
+#Scroll Up when Up Button Pressed
+begin
+   prog = irexec
+   button = KEY_UP
+   config = xdotool key 0xff52 #Up Arrow
+end
+
+#Previous Page when |<< Button Pressed
+begin
+   prog = irexec
+   button = KEY_REWIND
+   config = xdotool key 0xff51 #Left Arrow
+end
+
+#Next Page when >>| Button Pressed
+begin
+   prog = irexec
+   button = KEY_FORWARD
+   config = xdotool key 0xff53 #Right Arrow
+end
+
+#Zoom In when VOL+ Button Pressed
+begin
+   prog = irexec
+   button = KEY_VOLUMEUP
+   config = xdotool key 0x002b # "+" Plus Sign
+end
+
+#Zoom Out when VOL- Button Pressed
+begin
+   prog = irexec
+   button = KEY_VOLUMEDOWN
+   config = xdotool key 0x002d # "-" Minus Sign
+end
+
+#Automatic zoom when >|| Button Pressed
+begin
+   prog = irexec
+   button = KEY_PAUSE
+   config = xdotool key a
+end
+
+#Find Page when Func/Stop Button Pressed
+begin
+   prog = irexec
+   button = KEY_STOP
+   config = xdotool key "ctrl+l"
+end
+
+#Enter Page # when EQ Button Pressed
+begin
+   prog = irexec
+   button = KEY_EQUAL
+   config = xdotool key 0xff0d #return, enter key
+end
+
+#0 Button
+begin
+   prog = irexec
+   button = KEY_0
+   config = xdotool key 0
+end
+
+#1 Button
+begin
+   prog = irexec
+   button = KEY_1
+   config = xdotool key 1
+end
+
+#2 Button
+begin
+   prog = irexec
+   button = KEY_2
+   config = xdotool key 2
+end
+
+#3 Button
+begin
+   prog = irexec
+   button = KEY_3
+   config = xdotool key 3
+end
+
+#4 Button
+begin
+   prog = irexec
+   button = KEY_4
+   config = xdotool key 4
+end
+
+#5 Button
+begin
+   prog = irexec
+   button = KEY_5
+   config = xdotool key 5
+end
+
+#6 Button
+begin
+   prog = irexec
+   button = KEY_6
+   config = xdotool key 6
+end
+
+#7 Button
+begin
+   prog = irexec
+   button = KEY_7
+   config = xdotool key 7
+end
+
+#8 Button
+begin
+   prog = irexec
+   button = KEY_8
+   config = xdotool key 8
+end
+
+#9 Button
+begin
+   prog = irexec
+   button = KEY_9
+   config = xdotool key 9
+end
+
+#Return Key when EQ pressed
+begin
+   prog = irexec
+   button = KEY_EQUAL
+   config = xdotool key Return f
+end

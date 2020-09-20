@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+	<head> <!-- header with title -->
+		<meta name="viewport" content = "width=device-width, initial-scale=1.0"> <!-- meta tag to adapt web page to screen (responsive design) -->
+		<title>EduCast</title>
+		<style>
+			h1 {text-align: center;}
+			p {text-align: center; color: blue;}
+			input[type='file'] {width:92.3px;}
+			img {display: block; margin-left: auto; margin-right:auto;}
+		</style>
+	</head>
+  	<body>
+		<h1>EduBox Media Upload</h1> <!-- displayed heading  -->
+		
+		<!-- POST request, enctype for telling there's a file field -->
+		<form method="POST" action="" enctype="multipart/form-data">
+			
+			<!-- two button inputs, one file and another submit-->
+			<p>Upload PDFs, Images, or Videos</p>
+			<p><input type="file" name="images_and_videos" accept=".MOV,.mp4,.png,.jpg,.jpeg,.pdf" multiple></p>
+			<p><input type="submit" value="Submit"></p>
+		
+		</form>
+
+		<img src="/static/EduCastLogo.png" alt="Logo"></img>
+
+	</body>
+</html>

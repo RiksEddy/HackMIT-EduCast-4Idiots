@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+	<head> <!-- header with title -->
+		<meta name="viewport" content = "width=device-width, initial-scale=1.0"> <!-- meta tag to adapt web page to screen (responsive design) -->
+		<title>File Upload</title>
+  	</head>
+  	<body>
+		<h1>File Upload</h1> <!-- displayed heading  -->
+		
+		<!-- POST request, enctype for telling there's a file field -->
+		<form method="POST" action="" enctype="multipart/form-data">
+			
+			<!-- two button inputs, one file and another submit-->
+			<p><input type="file" name="images_and_videos" accept=".MOV,.mp4,.png,.jpg,.jpeg,.pdf" multiple></p>
+			<p><input type="submit" value="Submit"></p>
+		
+		</form>
+	</body>
+</html>

@@ -1,0 +1,17 @@
+#:kivy 1.1.0
+
+Root:
+    BoxLayout:
+        orientation: "vertical"
+        FileChooserIconView:
+            id: filechooser
+            rootpath: "/home/pi/EduCast/Storage"
+        BoxLayout:
+            size_hint_y: None
+            height: 50
+            Button:
+                text: 'Open File'
+                on_release: root.file_open(filechooser.path, filechooser.selection)
+            Button:
+                text: 'Close'
+                on_release: app.root_window.close()
