@@ -1,5 +1,5 @@
-# HackMIT
-Code base for 4 Idiots HackMIT team
+# EduCast - HackMIT 2020
+Code base for 4 Idiots HackMIT Team - Ritik, Himanshu, Bhavik, and Dhyey
 
 ![EduCast Logo](/EduBox/flaskApp/static/EduCastLogo.png)
 
